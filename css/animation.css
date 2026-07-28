@@ -1,0 +1,109 @@
+@keyframes piscarPurple{
+    0%{
+        background-color: blueviolet;
+    }
+    50%{
+        background-color: rgb(79, 19, 136);
+    }
+    100%{
+        background-color: rgb(83, 10, 192);
+    }
+}
+@keyframes piscarBlackCarvao {
+    0%{
+        background-color: #38353d;
+    }
+    50%{
+        background-color: #3c3b3d;
+    }
+    100%{
+        background-color: #212022;
+    }
+}
+@keyframes piscarNavBar{
+    0%{
+        background-color: #55286F;
+        box-shadow: 0px 0px 10px #55286F;
+    }
+    100%{
+        background-color: #703393;
+        box-shadow: 0px 0px 10px #703393;
+    }
+}
+@keyframes piscarPerfil{
+    0%{
+         box-shadow: 0px 0px 10px #ba7bfd75;
+    }
+    100%{
+          box-shadow: 0px 0px 10px #ad60ff75;
+    }
+}
+@keyframes bobbing{
+    0%{
+        transform: translateY(10px);
+    }
+    100%{
+        transform: translateY(-10px);
+    }
+}
+/*  Animação De Onda  */
+
+#animationWave span{
+    display: inline-block;
+    color: var(--neve-brilhante); /*Cor original da letra*/
+    animation: brilho 2s infinite;
+}
+
+@keyframes brilho {
+    0%, 100%{
+        color: var(--neve-brilhante);
+        transform: translateY(0);
+    }
+    50%{
+        color: blueviolet;
+        transform: translateY(-1px) scale(1.2);
+    }
+}
+/*  Animação De Onda  */
+
+/* Animação Padrão */
+.revel{
+    opacity: 0;
+    transform: translateY(-40px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+.revel.active{
+    opacity: 1;
+    transform: translateY(0);
+}
+.revelSection{
+    opacity: 0;
+    background-color: black;
+    color: aliceblue;
+    transform: translateY(60px);
+    transition: all 1s ease;
+   
+}
+.revelSection.activeSection{
+    opacity: 1;
+    transform: translateY(0);
+}
+.animationPadrao span{
+    display: inline-block;
+    color: var(--neve-brilhante);
+    animation: animationFade 4s infinite;
+}
+@keyframes animationFade{
+    0%, 100%{
+        color: var(--neve-brilhante);
+        transform: translateY(0);
+    }
+    25%, 75%{
+        color: rgb(196, 133, 255);
+    }
+    50%{
+        color: rgb(132, 0, 255);
+        transform: translateY(-1px) scale(1.1);
+    }
+}
+/* Animação Padrão */
