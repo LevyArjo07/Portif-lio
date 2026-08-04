@@ -267,14 +267,14 @@ body{
 body section .hero-content{
             margin: 8rem 1.2rem;
             width: 19em;
-            height: 25rem;
+            height: 23rem;
 
             strong{
                 font-size: 12px
             }
     }
     body section .background-hero.bottom{
-        height: 47rem;
+        height: 55rem;
         h1{
             padding-top: 19rem;
         }
