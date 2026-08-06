@@ -273,7 +273,7 @@ body section .hero-content{
                 font-size: 12px
             }
     }
-    body section .background-hero.bottom{
+body section .background-hero.bottom{
         height: 55rem;
         h1{
             padding-top: 19rem;
@@ -290,7 +290,7 @@ body section .hero-content{
 body header .header-box#menu nav{
     ul{
         li{
-            padding: 0rem;
+            padding: 2.6rem;
         }
     }
 }
