@@ -280,12 +280,16 @@ body section .background-hero.bottom{
             padding-top: 19rem;
         }
         h2{
-            font-size: 17px;
+            font-size: 18px;
+            text-align: start;
+            margin: 3rem 2rem 3rem;
+            line-height: 1.8rem;
         }
         p{
             padding-top: 1rem;
             padding-right: 1rem;
             margin: 0;
+            font-size: 16px;
         }
     }
 body header .header-box#menu nav{
